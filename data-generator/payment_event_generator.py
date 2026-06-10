@@ -45,14 +45,16 @@ def generate_transaction():
     }
 
 
-transactions = []
+if __name__ == "__main__":
 
-for _ in range(1000):
-    transactions.append(generate_transaction())
+    transactions = []
 
-df = pd.DataFrame(transactions)
+    for _ in range(1000):
+        transactions.append(generate_transaction())
 
-df.to_csv("transactions.csv", index=False)
+    df = pd.DataFrame(transactions)
 
-print("Generated 1000 transactions successfully!")
-print(df.head())
+    df.to_csv("transactions.csv", index=False)
+
+    print("Generated 1000 transactions successfully!")
+    print(df.head())
