@@ -1,6 +1,11 @@
+delta_spark==4.2.0
 Faker==40.22.0
+importlib_metadata==8.7.1
 kafka-python==2.3.2
 numpy==2.4.6
 pandas==3.0.3
+py4j==0.10.9.9
+pyspark==4.1.1
 python-dateutil==2.9.0.post0
 six==1.17.0
+zipp==4.1.0
