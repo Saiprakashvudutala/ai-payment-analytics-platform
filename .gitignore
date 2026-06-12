@@ -1,4 +1,14 @@
 venv/
+venv312/
+
 __pycache__/
 *.pyc
 .DS_Store
+
+# Spark generated data
+spark/bronze/payment_events/
+spark/bronze/checkpoints/
+spark/silver/payment_events/
+
+# Snowflake secrets
+snowflake/config.py
