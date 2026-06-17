@@ -3,9 +3,9 @@
 ## Architecture
 <img width="1536" height="1024" alt="Project Architechture" src="https://github.com/user-attachments/assets/e307eb2f-1749-418f-a568-503edbae120c" />
 
-<p align="center">
-  <img src="screenshots/architecture.png" alt="Project Architecture" width="1000">
-</p>
+## Architecture
+
+![Project Architecture](screenshots/architecture.png)
 
 ---
 
