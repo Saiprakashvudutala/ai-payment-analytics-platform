@@ -1,14 +1,10 @@
-venv/
-venv312/
-
-__pycache__/
-*.pyc
-.DS_Store
-
-# Spark generated data
-spark/bronze/payment_events/
+# Spark generated files
 spark/bronze/checkpoints/
-spark/silver/payment_events/
+spark/bronze/payment_events/
 
-# Snowflake secrets
-snowflake/config.py
+spark/gold/city_revenue/
+spark/gold/merchant_revenue/
+spark/gold/status_counts/
+
+*.crc
+_SUCCESS
