@@ -1,10 +1,10 @@
-import pandas as pd
-import snowflake.connector
+from dotenv import load_dotenv
+import os
 
-conn = snowflake.connector.connect(
-    user="GINGERGARLIC1899",
-    password="Garlicginger@1899",
-    account="WAVCZBP-JT57407",
+load_dotenv()
+
+password = os.getenv("SNOWFLAKE_PASSWORD")
+    account="WAVCZBP-JT574079",
     warehouse="COMPUTE_WH",
     database="PAYMENT_ANALYTICS",
     schema="RAW",
